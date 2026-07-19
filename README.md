@@ -8,7 +8,7 @@ that email recipients when actual or forecast spend crosses a threshold.
 
 ```hcl
 module "budget" {
-  source = "github.com/cybercapybara/terraform-oci-budget"
+  source = "github.com/moveeeax/terraform-oci-budget"
 
   compartment_id        = var.tenancy_id
   display_name          = "prod-budget"
